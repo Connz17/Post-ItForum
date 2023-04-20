@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Button.scss"
 
-const Button = () => {
+const Button = ({buttonText}) => {
 
     const clickHandler = () => {
             console.log("Clicked")
@@ -10,7 +10,7 @@ const Button = () => {
 
   return (
     <div>
-        <button onClick={clickHandler}>Submit</button>
+        <button className='button' onClick={clickHandler}>{buttonText}</button>
     </div>
   )
 }

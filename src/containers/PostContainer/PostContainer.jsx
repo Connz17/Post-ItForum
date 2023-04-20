@@ -1,9 +1,27 @@
 import React from 'react'
-import "PostContainer.scss"
+import PostCard from '../../components/PostCard/PostCard'
+import "./PostContainer.scss"
 
-const PostContainer = () => {
+const PostContainer = ({blogData}) => {
+
+  console.log(blogData);
+
+  const blogPostJsx = blogData.map((post) =>{
+    return(
+      <div key={post.id}>
+      <PostCard title={post.title} date={post.datePosted} author={post.author} comments={post.comments}/>
+      </div>
+    )
+  })
+
+
   return (
-    <div>BlogContainer</div>
+    <div className='main-content'>
+      <div className='Container'>
+        {blogPostJsx}
+      </div>
+
+    </div>
   )
 }
 

@@ -1,0 +1,12 @@
+
+.topicSearch {
+    border-radius: 5px;
+    background-color: #fff4ec;
+    transition: 1s ease;
+    height: 20px;
+
+    &:hover {
+        border-radius: 15px;
+        box-shadow: 7px 7px 10px;
+    }
+  }

@@ -3,7 +3,9 @@ import "./DisplayPicture.scss";
 
 const DisplayPicture = () => {
   return (
-    <div>DisplayPicture</div>
+    <div className='imageBox'>
+        <img src="" alt="" />
+    </div>
   )
 }
 

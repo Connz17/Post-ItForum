@@ -1,9 +1,14 @@
 import React from 'react'
 import "./PostCard.scss";
 
-const PostCard = () => {
+const PostCard = ({title, date, author, comments}) => {
   return (
-    <div>PostCard</div>
+    <div className='postsContainer'>
+        <h3 className='title'>{title}</h3>
+        <p className='date'>{date}</p>
+        <p className='author'>{author}</p>
+        <p className='comments'>{comments}</p>
+    </div>
   )
 }
 

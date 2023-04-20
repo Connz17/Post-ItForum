@@ -1,0 +1,19 @@
+.signIn-container {
+    grid-area: signIn-container;
+    background-color: #7f2732;
+    padding: 20px;
+    border-bottom: 2px solid #c98686;
+  }
+  
+  .buttons-container {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  

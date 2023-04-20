@@ -1,0 +1,19 @@
+
+.navbar {
+    grid-area: navbar;
+    background-color: #7f2732;
+    padding: 3.5rem;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    border-bottom: 2px solid #c98686;
+  }
+
+.navItems {
+    color: #e7cfbc;
+    cursor: pointer;
+
+    &:hover {
+        color: lightblue;
+    text-decoration-line: underline;
+    }
+  }
