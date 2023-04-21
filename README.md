@@ -44,7 +44,7 @@ We used HTML to populate the text on the page
 
 We designed our page utilising selectors to manipulate the page and text, making declarations to assign values to properties. For instance, grid, flex, border radius and more.
 
-!<img src = css1.png> ! <img src = css2.png>
+<img src = css1.png> <img src = css2.png>
 
 ***Javascript***
 
@@ -58,7 +58,7 @@ We used the fetch function to replace HTML standard data with data populated in 
 
 #### ***Components Diagram***
 
-<img src = >
+<img src = componentsdiagram.png>
 
 <br />
 
