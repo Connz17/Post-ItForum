@@ -2,10 +2,10 @@
 
 ## ***Collaborators*** ⭐
 
-Gulseren Ozdemir (GitHub: [GulserenOzdemir](https://github.com/GulOzdemir3))
-Connel Nwaodor (GitHub: [ConnelNwaodor](https://github.com/Connz17))
-Jason Moffat (GitHub: [JasonMoffat](https://github.com/jasonmoffat99))
-Rimm Deres (GitHub: [RimmDeres](https://github.com/rimmderes))
+* Gulseren Ozdemir (GitHub: [GulserenOzdemir](https://github.com/GulOzdemir3))
+* Connel Nwaodor (GitHub: [ConnelNwaodor](https://github.com/Connz17))
+* Jason Moffat (GitHub: [JasonMoffat](https://github.com/jasonmoffat99))
+* Rimm Deres (GitHub: [RimmDeres](https://github.com/rimmderes))
 
 ## **Project Overview** 🚀
 
