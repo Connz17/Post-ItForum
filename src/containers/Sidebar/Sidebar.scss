@@ -1,19 +1,19 @@
 .sidebar.active {
     position: relative;
     grid-area: sidebar;
+    // background-color: #7f2732;
     background-color: #e7cfbc;
     padding: 20px;
     left: 0;
-    width: 17rem;
     text-align: center;
-    transition: .7s ease-in-out;
+    transition: .5s ease-in-out;
   }
 
 .sidebar {
     position: relative;
     z-index: 2;
-    left: -80%;
-    transition: .7s ease-in-out;
+    left: -100%;
+    transition: .5s ease-in-out;
     grid-area: sidebar;
 }
 
@@ -26,24 +26,30 @@
     margin-top: 328px;
 }
 
+.sidebar__content {
+    display: none;
+}
+
+.sidebar__content.active {
+    display: block;
+}
+
 .menuBtn {
     cursor: pointer;
-    position: absolute;
-    top: 340px;
-    left: 257px;
+    position: relative;
+    top: 200px;
+    left: 330px;
     font-size: 3rem;
-    // transform: rotate(180deg);
-    transition: .5s;
+    transition: .7s ease-in-out;
+    
 }
 
 .menuBtn.active {
     cursor: pointer;
-    cursor: pointer;
-    position: absolute;
-    top: 340px;
-    left: 257px;
+    position: relative;
+    top: 200px;
+    left: 150px;
     font-size: 3rem;
     transform: rotate(180deg);
-    transition: .5s;
-    
+    transition: .7s ease-in-out;
 }

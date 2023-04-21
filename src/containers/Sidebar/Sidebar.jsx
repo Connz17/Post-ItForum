@@ -18,12 +18,15 @@ const Sidebar = () => {
    
     <div className={ showSidebar ? 'sidebar active' : "sidebar" }>
         <BsIcons.BsFillCaretRightSquareFill className={ showSidebar ? 'menuBtn active' : 'menuBtn'} onClick={toggleSidebar}/>
-        <h3 className='sidebar__heading'>Welcome</h3>
-        <DisplayPicture/>
-        <h3 className='sidebar__heading'>Topics</h3>
-        <TopicBar/>
-        <SearchBar />
-        <h3 className='help'>Help</h3>
+        <div className={showSidebar ? "sidebar__content active" : 'sidebar__content'}>
+            <h3 className='sidebar__heading'>Welcome</h3>
+            <DisplayPicture/>
+            <h3 className='sidebar__heading'>Topics</h3>
+            <TopicBar/>
+            <SearchBar />
+            <h3 className='help'>Help</h3>
+        </div>
+        
     </div>
   )
 }
