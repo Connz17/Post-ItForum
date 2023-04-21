@@ -1,9 +1,21 @@
-.sidebar {
+.sidebar.active {
+    position: relative;
     grid-area: sidebar;
     background-color: #e7cfbc;
     padding: 20px;
+    left: 0;
+    width: 17rem;
     text-align: center;
+    transition: .7s ease-in-out;
   }
+
+.sidebar {
+    position: relative;
+    z-index: 2;
+    left: -80%;
+    transition: .7s ease-in-out;
+    grid-area: sidebar;
+}
 
 .sidebar__heading {
     color: #7f534b;
@@ -12,4 +24,26 @@
 .help {
     text-decoration: none;
     margin-top: 328px;
+}
+
+.menuBtn {
+    cursor: pointer;
+    position: absolute;
+    top: 340px;
+    left: 257px;
+    font-size: 3rem;
+    // transform: rotate(180deg);
+    transition: .5s;
+}
+
+.menuBtn.active {
+    cursor: pointer;
+    cursor: pointer;
+    position: absolute;
+    top: 340px;
+    left: 257px;
+    font-size: 3rem;
+    transform: rotate(180deg);
+    transition: .5s;
+    
 }

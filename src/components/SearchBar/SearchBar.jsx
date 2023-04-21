@@ -1,4 +1,6 @@
 import React, { useState } from 'react'
+import { FaSearch } from "react-icons/fa";
+
 import "./SearchBar.scss";
 
 
@@ -14,8 +16,16 @@ const SearchBar = () => {
 
   return (
     <div>
-        <input onChange={handleUserSearch} className='topicSearch' type="text" placeholder="Search..." />
-        <i className='far fa-search'></i>
+      <div className='form-field'>
+        <FaSearch className="search-icon" />
+        <input
+          onChange={handleUserSearch}
+          className='topicSearch'
+          type="text"
+          placeholder="Search..." />
+          <i class="fa fa-search" aria-hidden="true"></i>
+        {/* <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button> */}
+      </div>
     </div>
   )
 }
