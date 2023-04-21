@@ -11,7 +11,7 @@ const HomePage = ({blogData}) => {
     <div className='grid-container'>
         <NavBar/>
         <SignInContainer/>
-        <Sidebar/>
+        {/* <Sidebar/> */}
         <PostContainer blogData={blogData}/>
         <Footer/>
     </div>

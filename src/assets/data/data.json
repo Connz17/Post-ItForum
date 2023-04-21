@@ -5,28 +5,34 @@
         "title": "Lorem Ipsom",
         "author": "Blandus Fulvia",
         "datePosted": "20/08/1930",
-        "comments": "5"
+        "comments": "5",
+        "tags": "sports"
     },
     {   
         "id": 2,
         "title": "Lorem Ipsom",
         "author": "Albena Sunil",
         "datePosted": "17/11/1992",
-        "comments": "9"
+        "comments": "9",
+        "tags": "gaming"
+
     },
     {   
         "id": 3,
         "title": "Lorem Ipsom",
         "author": "Idoia Ruslan",
         "datePosted": "05/03/2017",
-        "comments": "7"
+        "comments": "7",
+        "tags": "technology"
+
     },
     {   
         "id": 4,
         "title": "Lorem Ipsom",
         "author": "Willehad Emil",
         "datePosted": "03/12/1786",
-        "comments": "3"
+        "comments": "3",
+        "tags": "anime"
     }
     ]
 }

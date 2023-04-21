@@ -8,6 +8,7 @@ const Sidebar = () => {
 
 
   return (
+   
     <div className='sidebar'>
         <h3 className='sidebar__heading'>Welcome</h3>
         <DisplayPicture/>

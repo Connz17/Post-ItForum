@@ -1,19 +1,22 @@
 
 .navbar {
     grid-area: navbar;
-    background-color: #7f2732;
+    // background-color: #ebcb3c;
+    background-image: url(https://img.freepik.com/free-vector/set-note-paper_53876-117730.jpg?w=2000);
+    background-repeat: no-repeat;
+    background-size: 100%;
     padding: 3.5rem;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    border-bottom: 2px solid #c98686;
+    // border-bottom: 2px solid #c98686;
   }
 
 .navItems {
-    color: #e7cfbc;
+    color: #000000;
     cursor: pointer;
 
     &:hover {
-        color: lightblue;
+        color: rgb(91, 28, 218);
     text-decoration-line: underline;
     }
   }
