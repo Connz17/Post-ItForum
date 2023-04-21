@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react';
 import './App.scss';
-import NavBar from './containers/NavBar/NavBar';
-import SignInContainer from './containers/SignInContainer/SignInContainer';
+
 import HomePage from './pages/HomePage/HomePage';
 
 function App() {
