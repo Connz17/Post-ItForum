@@ -65,19 +65,17 @@ We used the fetch function to replace HTML standard data with data populated in 
 ### ***Dependencies*** 
 
 - This project was bootstrapped with Create React App. After cloning the react app, make sure you download the necessary modules
-- npm i - to install node modules
-- npm install react-router-dom@6 - to install react router
-- npm install --save-dev @testing-library/react
-- npm install react-icons --save
-- npm install react-router-dom
-- npm install sass --save-dev
-- npm install gh-pages --save-dev
+- **npm i - to install node modules**
+- **npm install react-router-dom@6 - to install react router**
+- **npm install --save-dev @testing-library/react**
+- **npm install react-icons --save**
+- **npm install react-router-dom**
+- **npm install sass --save-dev**
+- **npm install gh-pages --save-dev**
 
 <br />
 
 ### ***Installation*** 
-
-Installation
 
 - Firstly, you need to install the backend project in order to run the code successfully. This is done by cloning the backend git repo using the command: git clone …
 - You will then need to run this application before moving on the next steps in the frontend.
