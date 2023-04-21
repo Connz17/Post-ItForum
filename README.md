@@ -44,14 +44,13 @@ We used HTML to populate the text on the page
 
 We designed our page utilising selectors to manipulate the page and text, making declarations to assign values to properties. For instance, grid, flex, border radius and more.
 
-<img src = css1.png>
-<img src = css2.png>
+!<img src = css1.png> ! <img src = css2.png>
 
 ***Javascript***
 
 We used the fetch function to replace HTML standard data with data populated in a json file. 
 
-<img src = javascriptexample>
+<img src = javascriptexample.png>
 
 
 
@@ -63,7 +62,7 @@ We used the fetch function to replace HTML standard data with data populated in 
 
 <br />
 
-### ***Dependencies*** ⚓
+### ***Dependencies*** 
 
 - This project was bootstrapped with Create React App. After cloning the react app, make sure you download the necessary modules
 - npm i - to install node modules
