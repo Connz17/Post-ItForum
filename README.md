@@ -1,70 +1,85 @@
-# Getting Started with Create React App
+# **Post-it - Messaging Forum** 📝
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## **Grayce**
 
-## Available Scripts
+# ***Collaborators***
 
-In the project directory, you can run:
+- Gulseren Ozdemir
+- Connel Nwaodor
+- Jason Moffat
+- Rimm Deres
 
-### `npm start`
+# **Project Overview**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Our team took inspiration from discussion platforms like Reddit and Quora for our full-stack application, which enables users to explore various spaces and topics of their interest, post content, give likes, and comment. Logged-in users have greater privileges and can engage more with other users than non-logged-in users, who are presented with a limited page.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<br />
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### ***Project Timeline*** 💡
 
-### `npm run build`
+> - Week 1: Developed frontend using Javascript React, HTML and CSS.
+> - Week 2:
+> - Week 3:
+> - Week 4:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#### ***Wireframe***
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Our wireframe shows the landing page for a user who does not have an account with us. Beginning design without the additional pages.
 
-### `npm run eject`
+<img src = wireframe.png>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Our first page to reflect our wireframe.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<img src = >
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+***HTML***
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+We used HTML to populate the text on the page 
 
-## Learn More
+<img src = >
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+***CSS***
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+We designed our page utilising selectors to manipulate the page and text, making declarations to assign values to properties. For instance, grid, flex, border radius and more.
 
-### Code Splitting
+<img src = >
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+***Javascript***
 
-### Analyzing the Bundle Size
+We used the fetch function to replace HTML standard data with data populated in a json file. 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<img src = >
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+<br/>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+#### ***Components Diagram***
 
-### Deployment
+<img src = >
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+<br />
 
-### `npm run build` fails to minify
+### ***Dependencies*** ⚓
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- This project was bootstrapped with Create React App. After cloning the react app, make sure you download the necessary modules
+- npm i - to install node modules
+- npm install react-router-dom@6 - to install react router
+- npm install --save-dev @testing-library/react
+- npm install react-icons --save
+- npm install react-router-dom
+- npm install sass --save-dev
+- npm install gh-pages --save-dev
+
+<br />
+
+### ***Installation*** 
+
+Installation
+
+- Firstly, you need to install the backend project in order to run the code successfully. This is done by cloning the backend git repo using the command: git clone …
+- You will then need to run this application before moving on the next steps in the frontend.
+- In the project directory, you can run: npm start
+- This will run the app in the development mode. And you can open (http://localhost:3000) to view it in your browser.
