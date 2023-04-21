@@ -2,10 +2,10 @@
 
 ## ***Collaborators*** ⭐
 
-- Gulseren Ozdemir 
-- Connel Nwaodor
-- Jason Moffat
-- Rimm Deres
+Gulseren Ozdemir (GitHub: [GulserenOzdemir](https://github.com/GulOzdemir3))
+Connel Nwaodor (GitHub: [ConnelNwaodor](https://github.com/Connz17))
+Jason Moffat (GitHub: [JasonMoffat](https://github.com/jasonmoffat99))
+Rimm Deres (GitHub: [RimmDeres](https://github.com/rimmderes))
 
 ## **Project Overview** 🚀
 
@@ -117,5 +117,6 @@ Non-functional requirements:
 - In the project directory, you can run: npm start
 - This will run the app in the development mode. And you can open (http://localhost:3000) to view it in your browser.
 
+<br />
 
 # **ENJOY USING OUR API**! 👾 
