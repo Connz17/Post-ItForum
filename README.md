@@ -32,25 +32,26 @@ Our wireframe shows the landing page for a user who does not have an account wit
 
 Our first page to reflect our wireframe.
 
-<img src = >
+<img src = firstpage.png>
 
 ***HTML***
 
 We used HTML to populate the text on the page 
 
-<img src = >
+<img src = html.png>
 
 ***CSS***
 
 We designed our page utilising selectors to manipulate the page and text, making declarations to assign values to properties. For instance, grid, flex, border radius and more.
 
-<img src = >
+<img src = css1.png>
+<img src = css2.png>
 
 ***Javascript***
 
 We used the fetch function to replace HTML standard data with data populated in a json file. 
 
-<img src = >
+<img src = javascriptexample>
 
 
 
