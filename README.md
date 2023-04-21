@@ -58,7 +58,7 @@ We used the fetch function to replace HTML standard data with data populated in 
 
 #### ***Components Diagram***
 
-<img src = componentsdiagram.png>
+<img src = componentsdiagram.PNG>
 
 <br />
 
