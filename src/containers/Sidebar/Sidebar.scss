@@ -1,15 +1,61 @@
-.sidebar {
+.sidebar.active {
+    position: relative;
     grid-area: sidebar;
-    background-color: #e7cfbc;
+    background-color: #7f2732;
+    
     padding: 20px;
+    left: 0;
     text-align: center;
+    transition: .5s ease-in-out;
+
   }
 
+.sidebar {
+    position: relative;
+    z-index: 2;
+    left: -100%;
+    transition: .5s ease-in-out;
+    grid-area: sidebar;
+}
+
 .sidebar__heading {
-    color: #7f534b;
+    //color: #7f534b;
+    color: #F3E779;
   }
 
 .help {
     text-decoration: none;
     margin-top: 328px;
+}
+
+.sidebar__content {
+    display: none;
+}
+
+.sidebar__content.active {
+    display: block;
+}
+
+.menuBtn {
+    cursor: pointer;
+    position: relative;
+    top: 200px;
+    left: 330px;
+    font-size: 3rem;
+    transition: .7s ease-out;
+
+    &:hover {
+        color: forestgreen;
+    }
+    
+}
+
+.menuBtn.active {
+    cursor: pointer;
+    position: relative;
+    top: 200px;
+    left: 150px;
+    font-size: 3rem;
+    transform: rotate(180deg);
+    transition: .7s ease-out;
 }
