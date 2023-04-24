@@ -23,7 +23,7 @@ const Footer = () => {
         <ul class="socials">
 
              
-             <li><img src={instagramcopy} alt = "Productimg" width={50} /> </li>
+             {/* <li><img src={instagramcopy} alt = "Productimg" width={50} /> </li>
 
             <li><img src={snapchatcopy} alt = "Productimg" width={50}/></li>
 
@@ -31,7 +31,7 @@ const Footer = () => {
 
             <li><img src={twittercopy} alt = "Productimg" width={50}/></li>
 
-            <li><img src={pinterestcopy} alt = "Productimg" width={50}/></li> 
+            <li><img src={pinterestcopy} alt = "Productimg" width={50}/></li>  */}
 
             {/* <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li> */}
 
