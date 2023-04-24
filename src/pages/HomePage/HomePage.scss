@@ -1,11 +1,11 @@
 .grid-container {
     display: grid;
-    grid-template-columns: 1fr 0.25fr;
+    grid-template-columns: 0.25fr 1fr ;
     grid-template-rows: auto 1fr auto;
     grid-template-areas:
-      "navbar signIn-container"
-      "main-content sidebar"
-      "main-content sidebar"
+      "signIn-container navbar"
+      "sidebar main-content"
+      "sidebar main-content"
       "footer footer";
     height: 100vh;
   }

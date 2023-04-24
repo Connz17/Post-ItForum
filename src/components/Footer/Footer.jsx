@@ -22,6 +22,8 @@ const Footer = () => {
 
         <ul class="socials">
 
+             
+             {/* <li><img src={instagramcopy} alt = "Productimg" width={50} /> </li>
 {/*              
              <li><img src={instagramcopy} alt = "Productimg" width={50} /> </li>
 

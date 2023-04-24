@@ -3,10 +3,27 @@
     border-radius: 5px;
     background-color: #fff4ec;
     transition: 1s ease;
-    height: 20px;
+    height: 33px;
+    border: none;
+    text-indent: 10px;
+
+    &:focus {
+        border: none;
+    }
 
     &:hover {
         border-radius: 15px;
         box-shadow: 7px 7px 10px;
     }
+
+  }
+  .form-field {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .search-icon {
+    position: absolute;
+    top: 6px;
+    right: 8px;
   }
