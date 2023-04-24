@@ -1,12 +1,13 @@
 .sidebar.active {
     position: relative;
     grid-area: sidebar;
-    // background-color: #7f2732;
-    background-color: #e7cfbc;
+    background-color: #7f2732;
+    
     padding: 20px;
     left: 0;
     text-align: center;
     transition: .5s ease-in-out;
+
   }
 
 .sidebar {
@@ -18,7 +19,8 @@
 }
 
 .sidebar__heading {
-    color: #7f534b;
+    //color: #7f534b;
+    color: #F3E779;
   }
 
 .help {
@@ -40,7 +42,11 @@
     top: 200px;
     left: 330px;
     font-size: 3rem;
-    transition: .7s ease-in-out;
+    transition: .7s ease-out;
+
+    &:hover {
+        color: forestgreen;
+    }
     
 }
 
@@ -51,5 +57,5 @@
     left: 150px;
     font-size: 3rem;
     transform: rotate(180deg);
-    transition: .7s ease-in-out;
+    transition: .7s ease-out;
 }

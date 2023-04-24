@@ -5,4 +5,13 @@
     height: 175px;
     width: 175px;
     border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.avatar {
+    width: 90%;
+    height: auto;
+    border-radius: 5%;
 }
