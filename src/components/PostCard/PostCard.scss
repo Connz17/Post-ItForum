@@ -1,8 +1,8 @@
 .postsContainer {
     // border: 1px solid black;
-    height: 300px;
-    width: 150%;
-    // margin: 30px 5px;
+    // height: 300px;
+    // width: 150%;
+    margin: 4px;
     // width: fit-content;
     border-radius: 20px;
     box-shadow: 5px 5px 10px;
@@ -10,7 +10,7 @@
     transition: 0.2s;
     opacity: 0.7;
     background-color: rgb(226, 226, 42);
-    text-align: center;
+    font-size: 14px;
 
   
     &:hover {
@@ -19,20 +19,57 @@
         box-shadow: 10px 10px 10px;
         opacity: 1;
     }
+
+
     
   }
 
-  .Container {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        position: relative;
-  }
 
-  html {
-    background: #f5f7f8;
-    font-family: system-ui;
-    -webkit-font-smoothing: antialiased;
-    padding: 20px 0;
-  }
+
+.postsContainer {
+  margin: 20px;
+  padding: 20px;
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 0.4fr;
+    grid-template-rows: 2fr 3fr 1fr;
+    grid-template-areas:
+      "header header header"
+      "description description date"
+      "author more comments"
+      
+  
+
+}
+
+.title {
+  grid-area: header;
+  text-align: center;
+
+}
+
+.description {
+  grid-area: description;
+  text-align: center;
+
+}
+
+.date {
+  grid-area: date;
+  font-weight: bold;
+}
+
+.author {
+  grid-area: author;
+}
+
+.comments {
+  grid-area: comments;
+}
+
+.more {
+  grid-area: more;
+    text-align: center;
+  font-weight: bold;
+
+
+}
