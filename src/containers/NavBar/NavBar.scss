@@ -7,13 +7,14 @@
     background-size: 100%;
     padding: 3.5rem;
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     // border-bottom: 2px solid #c98686;
   }
 
 .navItems {
     color: #000000;
     cursor: pointer;
+    margin: auto;
 
     &:hover {
         color: rgb(91, 28, 218);

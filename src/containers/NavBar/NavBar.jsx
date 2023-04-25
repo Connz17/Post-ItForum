@@ -14,6 +14,7 @@ const NavBar = () => {
         <Link to="/promoted-page" className='nav-item'>Promoted</Link>
     </div>
    
+<<<<<<< HEAD
         // <div className='navbar'>
         //     <h3 className='navItems'>Hot</h3>
         //     <h3 className='navItems'>New</h3>
@@ -21,6 +22,14 @@ const NavBar = () => {
         //     <h3 className='navItems'>Wiki</h3>
         //     <h3 className='navItems'>Promoted</h3>
         // </div>
+=======
+        <div className='navbar'>
+            <h3 className='navItems'>Hot</h3>
+            <h3 className='navItems'>New</h3>
+            <h3 className='navItems'>Top</h3>
+            <h3 className='navItems'>Promoted</h3>
+        </div>
+>>>>>>> dbcc6d0c6c775a0c9483ba328e444ce8c0c0d29e
 
   )
 }
