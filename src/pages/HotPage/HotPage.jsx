@@ -1,9 +1,10 @@
-function HotPage() {
-    return(
-        <div>
-            <h1>Hot Topics!</h1>
-        </div>
-    )
+import React from 'react'
+import "./HotPage.scss";
+
+const HotPage = () => {
+  return (
+    <div>HotPage</div>
+  )
 }
 
-export default HotPage;
+export default HotPage
