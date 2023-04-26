@@ -7,7 +7,8 @@
     background-size: 100%;
     padding: 3.5rem;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
+    text-decoration: none;
     // border-bottom: 2px solid #c98686;
   }
 
@@ -15,9 +16,10 @@
     color: #000000;
     cursor: pointer;
     margin: auto;
+    // text-decoration: none;
 
     &:hover {
         color: rgb(91, 28, 218);
-    text-decoration-line: underline;
+        text-decoration-line: underline;
     }
   }
