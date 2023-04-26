@@ -1,9 +1,19 @@
 import React from 'react'
-import "MessageThread.scss"
+import "./MessageThread.scss"
+import { useParams } from "react-router";
 
-const MessageThread = () => {
+
+const MessageThread = ({blogData}) => {
+
+  const {postID} = useParams();
+
+  const blogPost = blogData.filter((post) => post.id == postID)
+
+
   return (
-    <div>MessageThread</div>
+    <div>
+      <p>{blogPost[0].title}</p>
+    </div>
   )
 }
 

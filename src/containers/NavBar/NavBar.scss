@@ -1,3 +1,6 @@
+a {
+  text-decoration: none;
+}
 
 .navbar {
     grid-area: navbar;
@@ -9,6 +12,7 @@
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     text-decoration: none;
+    justify-items: center;
     // border-bottom: 2px solid #c98686;
   }
 
@@ -16,10 +20,10 @@
     color: #000000;
     cursor: pointer;
     margin: auto;
-    // text-decoration: none;
+    
 
     &:hover {
-        color: rgb(91, 28, 218);
+        color:#F3E779;
         text-decoration-line: underline;
     }
   }

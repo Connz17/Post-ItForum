@@ -9,7 +9,7 @@ const PostContainer = ({blogData}) => {
   const blogPostJsx = blogData.map((post) =>{
     return(
       <div key={post.id}>
-      <PostCard title={post.title} date={post.datePosted} author={post.author} comments={post.comments}/>
+      <PostCard post={post} title={post.title} date={post.datePosted} author={post.author} comments={post.comments}/>
       </div>
     )
   })
